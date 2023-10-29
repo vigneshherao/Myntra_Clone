@@ -207,3 +207,60 @@ p{
     font-size: 13px;
     padding-right: 2px;
 }
+.top-title{
+    font-weight: 700;
+    color: #282c3f;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-left: 1rem;
+}
+.top-title h3{
+    font-size: 16px;
+}
+.top-title>span{
+    display: inline-block;
+    font-size: 16px;
+}
+.main-box{
+    display: flex;
+}
+.side-container{
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 1371px;
+}
+.main-container{
+    width: 100%;
+    background-color: #ffffffff;
+    height: 1371px;
+}
+.top-options{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.click-options{
+    display: flex;
+}
+.options1{
+    margin-left: 1rem;
+}
+.top-filter{
+    margin-left: 2rem;
+    border: 1px solid black;
+    display: inline-block;
+    font-size: 12px;
+}
+.main-options{
+    padding: 1rem 0;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.shirt-items{
+   margin: 0 0.8rem 1.8rem 1rem;
+}
+.offer_items{
+    width: 220px;
+}
