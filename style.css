@@ -128,6 +128,10 @@ sup{
 .offer_item{
     width: 240px;
 }
+.offer_items:hover{
+   border-bottom: 2px solid rgb(221, 10, 10);
+    
+}
 .download-container img{
     width: 80%;
     margin: auto;
@@ -174,5 +178,176 @@ sup{
 p{
     text-align: center;
     color: #696b79;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+.top-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+.top-message h3{
+    font-size: 16px;
+    line-height: 56px;
+    color: #535766;
+}
+.top-message span{
+    color: #ff3f6c;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: helvetica,arial,sans-serif;
+    padding-bottom: 10px;
+    margin-left: 0.6rem;
+}
+.top-message span sub{
+    color: #535766;
+    font-size: 13px;
+    padding-right: 2px;
+}
+.top-title{
+    font-weight: 700;
+    color: #282c3f;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-left: 1rem;
+}
+.top-title h3{
+    font-size: 16px;
+}
+.top-title>span{
+    display: inline-block;
+    font-size: 16px;
+}
+.main-box{
+    display: flex;
+}
+.side-container{
+    background-color: rgb(255, 255, 255);
+    width: 280px;
+    height: 1371px;
+    padding-top: 1rem;
+}
+.main-container{
+    width: 100%;
+    background-color: #ffffffff;
+    height: 1371px;
+}
+.top-options{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.click-options{
+    display: flex;
+}
+.options1{
+    margin-left: 1rem;
+}
+.top-filter{
+    margin-left: 2rem;
+    border: 1px solid black;
+    display: inline-block;
+    font-size: 12px;
+}
+.main-options{
+    padding: 1rem 0;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: 20px;
+}
+.shirt-items{
+   margin: 0 0.8rem 1.8rem 1rem;
+}
+.offer_items{
+    width: 220px;
+}
+.company-name{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    margin-bottom: 6px;
+}
+.item-name{
+    color: #535766;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    display: block;
+}
+.current-price{
+    font-size: 14px;
+    font-weight: 700;
+    color: #282c3f;
+}
+.discount-price{
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.discount{
+    color: #ff905a;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.item-contents{
+    margin: 1rem;
+    padding: 0 10px;
+}
+.price{
+    margin-top: 0.2rem;
+}
+
+
+
+/* sidebar */
+.side-titile{
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 25px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.sidebar-firstOption{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+}
+.sidebar-brand h4{
+    font-weight:700;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0 0 18px;
+    color: #282c3f;
+}
+.brand-name{
+    margin-left: 0.5rem;
+    color: #797e90;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+ul{
+   list-style: none;
+}
+.brand-count{
+    padding-bottom: 10px;
     font-size: 10px;
 }
